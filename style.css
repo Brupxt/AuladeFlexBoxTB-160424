@@ -1,0 +1,73 @@
+.caixa /*section ou Pai*/
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.caixacomflex /*Section ou Pai que receberá o display:flex*/
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+.caixacomflexeWrap /*Section ou pai que receberá o display flex e wrap*/
+{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+.caixacomFlexStart /*section ou pai que receberá o justify-content: flex-start*/
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+}
+.caixacomFlexEnd
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-end;
+}
+.caixacomSpaceBetween
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.caixacomSpaceAround
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+.caixacenter
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.item /*div ou filho*/
+{
+    background-color: tomato;
+    font-size: 32px;
+    text-align: center;
+    margin: 5px;
+}
+h1
+{
+    text-align: center;
+}
